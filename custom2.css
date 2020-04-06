@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.custom-body{
+    background-image: radial-gradient(circle at center, #6a456e 0%, #351039 100%);
+}
+.btn-login:hover{
+    background-image: linear-gradient(0deg, #68466a 100%, #77507a 0%);
+}
+.btn-login{
+    padding: 15px 30px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    background-image: linear-gradient(0deg, #68466a 0%, #77507a 100%);
+    border: 1px solid ;
+}
+
+.form-group > label{
+    color: #fff;
+}
+
+.invalid-feedback{
+    color: #9B4A78;
+}
+
+.card{
+    border: 1px solid #999999a0;
+    background-color: unset;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.card-header{
+    padding: 25px 22px;
+    border-radius: 2px;
+    background-color: unset;
+    background-image: linear-gradient(0deg, #68466a 0%, #77507a 100%);
+    border: 0px;
+}
+
+.card-heading{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(0.5px 0.866px 0.5px rgba(53,16,56,0.5));
+}
+
+
+
+.card-body{
+    background-color: #f2f2f2;
+    border: 1px solid #ffffff;
+    padding: 22px 36px;
+}
+
+.form-control:focus, .custom-select.is-invalid:focus, .form-control.is-invalid:focus, .was-validated .custom-select:invalid:focus, .was-validated .form-control:invalid:focus {
+    outline: 0;
+    box-shadow: unset;
+    border: 1px solid rgba(220,220,220,0.86);
+}
+input.form-control{
+    padding: 20px 18px;
+    font-size: 12px;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    border: 0;
+    border-radius: 3px;
+    background-color: #f0eef0;
+    border: 1px solid rgba(220,220,220,0.86);
+}
+
+.input-group-text{
+    border-radius: 3px;
+    background-color: #f0eef0;
+    border: 1px solid rgba(220,220,220,0.86);
+}
